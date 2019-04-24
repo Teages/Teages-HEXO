@@ -1,3 +1,5 @@
 /public/
 /.deploy_git/
 /id_rsa.pub
+/id_rsa-for-backup.pub
+/id_rsa-for-push.pub
