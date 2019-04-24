@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[Simple Blog]]></title>
+    <link href="http://localhost/atom.xml" ref="self"/>
+    <link href="http://localhost/"/>
+    <id>http://localhost/</id>
+    <updated>2019-03-16T02:48:38.225Z</updated>
+    <entry>
+         <title><![CDATA[Introduction]]></title>
+         <link href="http://localhost/post/2013/04/24/09-12.html"></link>
+         <updated>2013-04-24T10:18:00.000Z</updated>
+         <id>2013-04-24-09-12</id>
+         <summary type="html"><![CDATA[<p>Jekyde is a static blog bulder, server and writer in Node.JS.</p>
+]]></summary>
+    </entry>
+    <entry>
+         <title><![CDATA[Hello Blog]]></title>
+         <link href="http://localhost/post/2013/03/10/hello-world.html"></link>
+         <updated>2013-03-10T08:13:00.000Z</updated>
+         <id>2013-03-10-16-22</id>
+         <summary type="html"><![CDATA[<p>This is your first post!</p>
+]]></summary>
+    </entry>
+</feed>
