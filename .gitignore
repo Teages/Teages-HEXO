@@ -1,2 +1,3 @@
 /public/
 /.deploy_git/
+/id_rsa.pub
