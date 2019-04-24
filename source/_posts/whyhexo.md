@@ -34,6 +34,11 @@ sudo rm -rf ./*
 ```bash
 apt-get install nodejs
 apt-get install npm
+
+//如果是Ubuntu
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash  - 
+sudo apt-get install -y nodejs
+
 npm install hexo --save
 npm install hexo-cli --save
 npm install hexo-server --save
