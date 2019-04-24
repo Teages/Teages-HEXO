@@ -32,18 +32,19 @@ sudo rm -rf ./*
 清理掉wordpress文件后
 
 ```bash
-sudo apt-get install nodejs
-sudo apt-get install npm
-sudo npm install hexo --save
-sudo npm install hexo-cli --save
-sudo npm install hexo-server --save
-sudo npm install hexo--deployer-git --save
-sudo mkdir ./tmp/
+apt-get install nodejs
+apt-get install npm
+npm install hexo --save
+npm install hexo-cli --save
+npm install hexo-server --save
+npm install hexo--deployer-git --save
+mkdir ./tmp/
 cd ./tmp
-sudo hexo init 
-sudo npm install
+hexo init 
+npm install
 mv ./* ../
 cd .. && rmdir ./tmp
+hexo-server
 ```
 
 一气呵成安装hexo，记得要一句句复制
