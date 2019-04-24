@@ -3,3 +3,7 @@
 /id_rsa.pub
 /id_rsa-for-backup.pub
 /id_rsa-for-push.pub
+/yarn.lock
+/pull.sh
+/pull.cpp
+/pull
