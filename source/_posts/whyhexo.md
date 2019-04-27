@@ -72,7 +72,7 @@ hexo-server
 
 #### 修复Gitment
 ~~~
-1. 
+
 
 ~~~
 
