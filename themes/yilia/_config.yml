@@ -2,6 +2,7 @@
 
 menu:
   主页: /
+  文章: /pages/
   关于: /pages/about.html
 
 # SubNav
@@ -43,7 +44,7 @@ open_in_new: true
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 1
+reward_type: 0
 # 打赏wording
 reward_wording: '是要请我吃糖果吗qwq'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -102,7 +103,7 @@ style:
   # 头像上面的背景颜色
   header: '#606060'
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#606060)'
+  slider: 'linear-gradient(200deg,#9e9e9e,#606060)'
 
 # slider的设置
 slider:
