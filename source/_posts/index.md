@@ -9,3 +9,5 @@ sage: true
 ### 算法类
 
 [【题解】 洛谷P1603 斯诺登的密码](https://blog.teages.xyz/pages/Luogu-p1603.html)
+
+版权信息
