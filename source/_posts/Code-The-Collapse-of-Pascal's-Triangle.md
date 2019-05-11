@@ -44,5 +44,11 @@ N为杨辉三角最上面的数字
 ~~~
 
 ## 提示
-如果输入的是下面的(当N!=1的情况)
+如果输入的是下面的(当N!=1的情况)</br>
+输入为`5 N`</br>
+则生成的杨辉三角如下</br>
 ![tip](https://res.cloudinary.com/teages-blog/image/upload/v1557545444/Code-The-Collapse-of-Pascal%27s-Triangle/%E6%8F%90%E7%A4%BA_nimb1n.png)
+
+## 题解
+
+>咕咕咕
