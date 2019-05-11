@@ -1,10 +1,9 @@
 ---
 title: 【WTG】Windows To GO 安装指北
-categories:
-  - Daily
 date: 2019-01-30 16:57:33
 reward: true
 tags:
+  - Daily
 ---
 
 > 注意：如果您的预算不是很够，

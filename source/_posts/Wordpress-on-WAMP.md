@@ -1,10 +1,9 @@
 ---
 title: WAMP安装和搭建WordPress
-categories:
-  - wordpress
 date: 2018-12-13 13:44:43
 reward: true
 tags:
+  - wordpress
 ---
 
 > 可能不定期更新，也有可能会咕掉  

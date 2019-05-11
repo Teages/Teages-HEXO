@@ -1,11 +1,11 @@
 ---
 title: 【题解】 洛谷P1603 斯诺登的密码
-categories:
-  - Codes
-  - Luogu
 date: 2019-01-28 10:48:42
 reward: true
 tags:
+  - Codes
+  - Luogu
+  - Daily
 ---
 
 洛谷：[题目](https://www.luogu.org/problemnew/show/P1603)   

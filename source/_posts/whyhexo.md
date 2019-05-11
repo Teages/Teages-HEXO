@@ -1,11 +1,10 @@
 ---
 title: 【博客】为什么选择HEXO
 date: 2019-03-24 11:40:16
-categories:
-  - Daily
-  - hexo
 reward: true
 tags:
+  - Daily
+  - Hexo
 ---
 
 > 主要原因还不是没钱续费emmm
@@ -29,7 +28,7 @@ tags:
 ```bash
 sudo rm -rf ./*
 ```
-清理掉wordpress文件后
+清理掉wordpress文件后(删库跑路#(滑稽))
 
 ```bash
 apt-get install nodejs
