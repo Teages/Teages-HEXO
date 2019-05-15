@@ -85,7 +85,7 @@ theme: yilia
 deploy:
   type: git
   repo: git@github.com:Teages/teages.github.io.git
-  branch: master
+  branch: pre-finish
   
 
 jsonContent:
