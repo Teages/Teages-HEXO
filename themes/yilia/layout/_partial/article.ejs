@@ -12,7 +12,12 @@
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
         <% if (theme.excerpt_link) { %>
+          <!--
           <a class="article-more-a" href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %> >></a>
+          -->
+          <p class="article-more-link">
+          <a class="article-more-a" href="<%- url_for(post.path) %>"><%= theme.theme.excerpt_link %> 阅读全文 >></a>
+        </p>
         <% } %>
       <% } else { %>
         <%- post.content %>
@@ -75,12 +80,13 @@
         </div>
       </div>
       <div class="Gitment">
-        <div id="gitment-ctn"></div> 
-          <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
-          <script src="https://billts.site/js/gitment.js"></script>
+        <div id="gitment-art"></div> 
+          <link rel="stylesheet" href="/extra_css/gitment.css">
+          <script src="/js/gitment.js"></script>
           <script>
           var gitment = new Gitment({
-            id: "<%=url%>",
+            id: '<%=page.path%>',
+            //id: '<%=url%>',
             owner: '<%=theme.gitment_owner%>',
             repo: '<%=theme.gitment_repo%>',
             oauth: {
@@ -88,10 +94,9 @@
               client_secret: '<%=theme.gitment_oauth.client_secret%>',
             },
           })
-          gitment.render('gitment-ctn')
+          gitment.render('gitment-art')
           </script>
       </div>
-    </div>
   </div>
 </article>
 <% if (!index){ %>

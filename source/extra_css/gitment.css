@@ -9,7 +9,6 @@
 .gitment-container * {
   box-sizing: border-box;
 }
-
 .gitment-container *:disabled {
   cursor: not-allowed;
 }
@@ -392,7 +391,7 @@ a.gitment-editor-footer-tip:hover {
 .gitment-editor-submit,
 .gitment-comments-init-btn {
   color: #fff;
-  background-color: #00BCD4;
+  background-color: #606060;
 
   position: relative;
   display: inline-block;
@@ -416,13 +415,13 @@ a.gitment-editor-footer-tip:hover {
 
 .gitment-editor-submit:hover,
 .gitment-comments-init-btn:hover {
-  background-color: #00ACC1;
+  background-color: #000000;
 }
 
 .gitment-comments-init-btn:disabled,
 .gitment-editor-submit:disabled {
   color: rgba(255,255,255,0.75);
-  background-color: #4DD0E1;
+  background-color: #606060;
   box-shadow: none;
 }
 

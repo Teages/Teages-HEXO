@@ -9,8 +9,7 @@ tags:
 ---
 
 洛谷：[题目](https://www.luogu.org/problemnew/show/P1603)   
-
-  
+<!-- more -->
 
 这道题其实非常地水  
   

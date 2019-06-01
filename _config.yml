@@ -9,11 +9,11 @@ description:
 keywords:
 author: Teages
 language: zh-cmn-Hans
-timezone:
+timezone: Asia/Hong_Kong
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hexo.teages.xyz
+url: https://blog.teages.xyz
 root: /
 #permalink: :year/:month/:day/:title/
 permalink: pages/:title.html
@@ -28,6 +28,9 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - "js/**"
+  - "extra_css/**"
+
 
 # Writing
 new_post_name: :title.md # File name of new posts

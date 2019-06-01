@@ -24,6 +24,7 @@
         "hexo-tag-bilibili": "^0.2.1",
         "html-minifier": "^4.0.0",
         "jekyde": "0.3.6",
+        "mobx": "^5.9.4",
         "uglify-js": "^3.5.3"
     },
     "main": "node_modules/jekyde/jekyde",

@@ -12,6 +12,9 @@ tags:
 那么如果杨辉三角坍塌了会是什么样的景象呢。。。
 ~~~
 
+
+<!-- more -->
+
 如图是一个杨辉三角
 ![一个杨辉三角](https://res.cloudinary.com/teages-blog/image/upload/v1557544646/Code-The-Collapse-of-Pascal%27s-Triangle/%E4%B8%80%E4%B8%AA%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92_wv7m8q.png)
 
@@ -22,7 +25,7 @@ tags:
 
 ## 输入
 
-两个数T N
+两个数N T
 T为杨辉三角的层数
 N为杨辉三角最上面的数字
 两个数以空格分割
