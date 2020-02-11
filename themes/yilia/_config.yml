@@ -91,10 +91,10 @@ changyan_conf: false
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
 
-#5、Gitment
-gitment_owner: Teages      #你的 GitHub ID
-gitment_repo: 'teages.github.io'          #存储评论的 repo
-gitment_oauth:
+#5、Gitalk
+gitalk_owner: Teages      #你的 GitHub ID
+gitalk_repo: 'teages.github.io'          #存储评论的 repo
+gitalk_oauth:
   client_id: '1af62824c8d0c129d52e'           #client ID
   client_secret: 'ad0c76ff05b3d69c17dd0631c63f36427a22989f'       #client secret
 
