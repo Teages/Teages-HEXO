@@ -8,22 +8,7 @@ function getQueryString(name) {
 	if (r != null) return unescape(r[2]); return null; 
 } 
 // 统计用，开发者不需要理会
-if (window.BJ_REPORT) {
-	BJ_REPORT.init({
-  		id: 1
-	});
-	BJ_REPORT.init({
-		id: 1,                                
-		uin: window.location.origin,          
-		combo: 0,                             
-		delay: 1000,                          
-		url: "//litten.me:9005/badjs/",       
-		ignore: [/Script error/i],           
-		random: 1,                            
-		repeat: 500000,                         
-		onReport: function(id, errObj){},    
-		ext: {}                             
-	});
+
 	// iframe不上报
 	var host = window.location.host
 	var isNotFrame = (top === window)
